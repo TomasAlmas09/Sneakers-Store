@@ -1,0 +1,158 @@
+
+/* Banner */
+body, html {
+  margin-top: 40px;
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  height: 60%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-image: url('imgs/banner_01.jpg');
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: black;
+}
+
+/* LOGIN */
+
+.input-container {
+  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+  
+}
+
+.icon {
+  padding: 10px;
+  background: black;
+  border-radius: 15px;
+  margin-right: 5px;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border-radius: 15px;
+}
+
+.input-field:focus {
+  border: 2px solid black;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 15px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.padrao{
+  align-items: center;
+  text-align: center;
+ 
+}
+
+.padrao a{
+
+  color: black;
+}
+select {
+  width: 100%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+input[type=text] {
+  width: 100%;
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  height: 25px;
+  border: 1px solid;
+}
+
+input[type=text]:focus {
+  border: 1px solid #555;
+  
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #f1f1f1;
+  border: 1px solid;
+  color: black;
+  text-decoration: none;
+  margin: 4px 2px;
+  border-radius: 3px;
+  width: 100%;
+  height: 35px;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #555;
+  color: white;
+}
+
+
+
+.padrao {
+    margin-left: 450px; /* Adiciona margem externa de 20 pixels ao redor do formulário */
+    margin-right: 450px;
+}
+

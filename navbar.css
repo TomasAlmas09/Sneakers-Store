@@ -1,0 +1,35 @@
+/* Navbar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100000000; /* Defina um valor alto para a propriedade z-index */
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 40px;
+  display: flex; /* Adiciona flex container */
+  align-items: center; /* Centraliza verticalmente */
+}
+
+/* Estilo para o item à direita da barra de navegação */
+.dir {
+  margin-left: auto;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Estilo para o logo */
+.logo img {
+  max-height: 40px; /* Ajuste conforme necessário para o tamanho do seu logo */
+  vertical-align: middle;
+}
